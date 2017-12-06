@@ -1,0 +1,51 @@
+header{
+	
+}
+#headernav{
+	padding-left: 5px;
+    margin-bottom: 0px;
+}
+#headernav > .nav a{
+ 	padding: 0px;
+    color: #34AC98;
+    line-height: 20px;
+    font-size: 12px;
+    margin-top: 8px;
+    height: 30px;
+    padding: 0px 12px;
+}
+.nav > li{
+	display: inline-block !important;
+}
+@media only screen and (max-width: 500px) {
+    .NavBarImages{
+        background:none !important;
+        padding-left: 0px !important;
+    }
+}
+.navbar-nav{
+	margin: 7.5px 0px !important;
+}
+#navTasteMakers > a{
+	background: url(../images/nav-tastemakers.png) no-repeat 0px 0px/35px 31px;
+    padding: 0px 22px;
+}
+#navBlog > a{
+	background: url('../images/nav-blog.png') no-repeat  0px 0px/31px 31px;
+	padding: 0px 22px;
+}
+#navAList > a{
+	background: url('../images/nav-alist.png') no-repeat  0px 0px/30px 28px;
+	padding: 0px 22px;
+}
+#navContribute > a{
+	background: url('../images/nav-contribute.png') no-repeat  0px 0px/31px 31px;
+	padding: 0px 22px;
+}
+#navAbout > a{
+	background: url('../images/nav-about.png') no-repeat  0px 0px/31px 31px;
+	padding: 0px 22px;
+}
+.foodSenseLogo{
+	text-align: center;
+}

@@ -1,0 +1,404 @@
+	.Body{
+		overflow-x: hidden;
+	}
+/*For Desktop start*/
+/*outside media query start*/
+	#navBar ul{
+	list-style-type: none;
+	padding: 0px;
+	font-family: initial;
+	margin: 30px 0px 0px 0px;
+	margin-top:70px;
+	}
+	#navBar li{
+	padding-right: 10px;
+	height: 45px;
+	}
+	#navBar a{
+	color: #34AC98;
+	padding: 13px 0px 0px 40px;
+	}
+	/*outside media query end*/
+	/*outside media query start*/
+	#navTasteMakers > a{
+	background: url(../images/nav-tastemakers.png) no-repeat 0px 0px/35px 31px;
+	}
+	#navBlog > a{
+	background: url('../images/nav-blog.png') no-repeat  0px 0px/31px 31px;
+	}
+	#navAList > a{
+	background: url('../images/nav-alist.png') no-repeat  0px 0px/30px 28px;
+	}
+	#navContribute > a{
+	background: url('../images/nav-contribute.png') no-repeat  0px 0px/31px 31px;
+	}
+	#navAbout > a{
+	background: url('../images/nav-about.png') no-repeat  0px 0px/31px 31px;
+	}
+	/*outside media query end*/
+    .listelements{
+    margin-left: 55px;
+    }
+    .foodsenselogo{
+	 margin-top: 40px;
+	 margin-left: 40px;
+ 	}
+	.ShareFoodSenseImage > img {
+	    height: 400px;
+	    width: 100%;
+	    margin-top: 50px;
+	 }
+	p.p1{
+		background-color: white;
+		position: absolute;
+		width: 35%;
+		font-size: 20px;
+		padding: 11px;
+		left: 15px;
+		top: 265px;
+	}
+	p.p2{
+		background-color: rgb(0, 0, 0);
+		color: white;
+		width: 65%;
+		position: absolute;
+		padding: 10px;
+		left: 15px;
+		top: 315px;
+		font-size: 13px;
+	}
+	.SignUp{
+		margin-top: 21px;
+		border-top: 1px dotted #ccc;
+		border-bottom: 1px dotted #ccc;
+	    margin-bottom: 20px;
+	    font-family: initial;
+	}
+	.SignUp i{
+		margin-top: 6px;
+    	font-size: 31px;
+    	padding: 0px;
+	}
+	.SignUp p{
+		font-size: 11px;
+	    margin-top: 5px;
+	    padding: 0px;
+	}	
+	.SignUp input[type="email"]{
+		margin: 5px 0px 0px 36px;
+    	width: 143px;
+	}
+	.SignUp input[type="submit"]{
+		width: 88px;
+	    height: 20px;
+	    margin: 6px 0px 0px 12px;
+	    padding: 0px 0px 19px 0px;
+	}
+	.Cookbooks{
+		font-family: initial;
+	}
+	.Cookbooks img{
+		width: 137px;
+	    height: 91px;
+	    padding: 2px;
+	    border: 1px solid #ccc;
+	}
+	.Cookbooks h5{
+		color: #34AC98;
+	}
+	.Cookbooks p{
+		font-size: 12px;
+	}
+	.Cookbooks span{
+		color: #34AC98;	
+	}
+	.Footer{
+		border-top: 1px solid #ccc;
+	    margin: 60px 0px;
+	    font-size: 12px;
+	    width: 938px;
+    	margin-left: 78px;
+	}
+	#navBar .Footer ul{
+   list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    margin: 30px 0px 0px 0px;
+	}
+	#navBar .Footer li {
+    float: left;
+    height: 16px;
+    padding: 0px;
+    border-right: 1px solid #ccc;
+	}
+	#navBar .Footer li:last-child{
+	  border-right: 0px;
+	  padding-right: 0px;
+	}
+	#navBar .Footer li a {
+    display: inline;
+    padding: 8px;
+    text-decoration: none;
+	}
+	#navBar .Footer p{
+	    margin: 0px 0px 0px 7px;
+	}
+	.SocialIcons{
+	    margin: 27px 0px 0px 387px;
+    	font-size: 23px;
+	}
+	#navBar .SocialIcons a{
+		padding: 0px 17px 0px 0px;
+		color:  #999999;
+	}
+	.LatestNews{
+		margin-left: 54px;
+		font-family: initial;
+	}
+	.LatestNews > h6{
+		border-bottom: 1px dashed #ccc;
+    	width: 160px;
+	}
+	.LatestNews button{
+		margin-bottom: 23px;
+		color: #34AC98;
+	}
+	#tabList ul{
+		margin-top: 0px;
+		width: 700px;
+	}
+	#tabList ul > li > a{
+		padding-right: 80px;
+		border-right: 1px solid;
+		background-color: #eff8f7;
+		padding-bottom: 10px;
+		padding-left: 36px;
+	}
+	#tabList ul > li{
+		padding-right: 0px;
+		padding-top: 10px;
+	}
+	#tabImages img{
+		margin-top: 50px;
+		width: 700px;
+		height: 420px;
+	}
+	.LetsBeFriends{
+		margin: 0px 0px 0px 60px;
+	}
+	.LetsBeFriends > h6{
+		border-bottom: 1px dashed #ccc;
+    	width: 160px;
+	}
+	.LetsBeFriends p{
+		font-size: 11px;
+	    text-align: left;
+	    width: 150px;
+	}
+	.LetsBeFriends button{
+		color: #34AC98;
+	}
+	.FooterList{
+		margin: 0px 0px 20px 0px;
+	}
+/*For Desktop end*/
+/*For Tablet start*/
+@media only screen and (max-width: 768px) {
+	.LatestNews{
+		display: none;
+	}
+	.LetsBeFriends{
+		display: none;
+	}
+	#tabImages{
+		margin: 0px 0px 0px 40px;
+	}
+	#tabList > ul{
+		margin: 0px 0px 0px 41px;
+	}
+	#navBar li{
+		display: inline-block;
+	}
+	#navBar a {
+    padding: 40px 36px 0px 0px;
+	}
+	.foodsenselogo {
+        margin-top: 0px;
+    	margin-left: 20px;
+    	padding: 14px 0px 0px 34px;
+ 	}
+ 	.SignUp{
+ 		width: 703px !important;
+    	margin-left: 42px;
+ 	}
+ 	.SignUp i{
+	    margin: 3px 0px 0px 47px;
+    	font-size: 40px;
+	}
+ 	.SignUp input[type="email"]{
+		margin: 11px 5px 0px 25px;
+	    width: 170px;
+	}
+ 	.SignUp input[type="submit"]{
+		margin: 12px 0px 0px 0px;
+	}
+	.SocialIcons{
+	    margin: 26px 0px 26px 200px;
+    	font-size: 23px;
+    	width: 154px !important;
+	}
+	.listelements {
+	    margin-left: 50px;
+    	padding: 0px !important;
+    	width: 500px !important;
+    	margin-top: 10px;
+ 	}
+	p.p1{
+		background-color: white;
+		position: absolute;
+		width: 35%;
+		font-size: 20px;
+		padding: 11px;
+		left: 55px;
+		top: 418px;
+	}
+	p.p2{
+		background-color: rgb(0, 0, 0);
+		color: white;
+		width: 65%;
+		position: absolute;
+		padding: 10px;
+		left: 57px;
+		top: 468px;
+		font-size: 15px;
+	}
+	#tabImages img {
+    margin-top: 15px;
+	}
+	.Footer{
+		width: 715px;
+    	margin-left: 39px;
+    	margin-bottom: 2px;
+	}
+}
+/*For Tablet end*/
+/*For Mobile start*/
+@media only screen and (max-width: 500px) {
+	.foodsenselogo{
+		order: 2;
+    	margin: 15px 0px 2px 197px;
+    	width: 100% !important;
+	}
+	.foodsenselogo > img{
+	    width: 100%;
+    	height: 100%;
+	}
+	.listelements{
+	    margin: 0px 0px 0px 4px;
+   	 	order: 1;
+    	width: 730px !important;
+    	border-bottom: 1px solid #ccc;
+	}
+	#tabList ul{
+		display: none;
+	}
+	.col-xs-12 {
+    	display: flex;
+    	flex-direction: column;
+	}
+	.listelements > ul{
+		font-size: 25px;
+    	margin: 36px 0px 20px 30px !important;
+	}
+	.NavBarImages{
+		background: none !important;
+	}
+	.listelements a{
+		padding-right: 32px !important;
+	}
+	p.p1{
+		background-color: rgba(255,255,255,0.8);
+	    position: absolute;
+	    width: 200%;
+	    font-size: 20px;
+	    padding: 11px;
+	    left: 25px;
+	    top: 759px;
+	}
+	p.p2{
+	    background-color: rgb(0, 0, 0);
+	    color: white;
+	    width: 200%;
+	    position: absolute;
+	    padding: 10px;
+	    left: 25px;
+	    top: 809px;
+	    font-size: 15px;
+	}
+	#tabImages{
+		margin: 9px;
+	}
+	.SignUp{
+		width: 711px !important;
+	    margin-left: 0px;
+	}
+	.SignUp p {
+    font-size: 27px;
+    margin-top: 0px;
+	}
+	.SignUp input[type="email"] {
+      	margin: 1px 5px 15px 31px;
+    	height: 40px;
+    	font-size: 30px;
+    	width: 377px;
+	}
+	.SignUp input[type="submit"] {
+	  	margin: 0px 0px 0px 40px;
+    	width: 163px;
+    	font-size: 28px;
+    	height: 41px;
+	}
+	.SignUp i{
+	    margin: 24px 25px 0px 30px;
+    	font-size: 57px;
+	}
+	.Cookbooks{
+	    width: 690px !important;
+	    margin: 0px 0px 0px 8px;
+	}
+	.Cookbooks h5{
+		font-size: 40px;
+	}
+	.Cookbooks img {
+    width: 659px;
+    height: 461px;
+    padding: 10px;
+    border: 1px solid #ccc;
+	}
+	.Cookbooks p {
+		font-size: 35px;
+	}
+	.Footer{
+	    width: 720px !important;
+    	font-size: 16px;
+	}
+	.FooterList{
+		font-size: 20px;
+	}
+	#navBar .Footer ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    margin: 30px 0px 0px 22px;
+    height: 25px;
+	}
+	#navBar .Footer p {
+       margin: 0px 0px 0px 28px;
+	}
+	.SocialIcons{
+		margin: 20px 0px 60px 50px;
+	    width: 244px !important;
+	    font-size: 50px;
+	}
+}
+/*For Mobile end*/
